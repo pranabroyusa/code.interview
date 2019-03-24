@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class i_Plus_Plus {
 	@Test
-	// ++i
+	
 	public void m1()
 	{
 		int i=1;
@@ -15,7 +15,7 @@ public class i_Plus_Plus {
 	}
 	
 	@Test
-	//i++
+
 	public void m2()
 	{
 		int i=1;
