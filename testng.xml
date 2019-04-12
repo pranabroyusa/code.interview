@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+<suite name="Suite" parallel="tests">
   <test name="Test">
     <classes>
       <class name="com.code.trial.Array_To_Array_List"/>
@@ -34,35 +34,4 @@
       <class name="default3.Comparable_Vs_Comparator"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)" parallel="tests">
-    <classes>
-      <class name="default1.Test1">
-        <methods>
-          <include name="m1"/>
-        </methods>
-      </class> <!-- default1.Test1 -->
-      <class name="default3.Serialization_DeSerialization">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- default3.Serialization_DeSerialization -->
-      <class name="default1.Screenshot_Of_Failed_Test_Cases">
-        <methods>
-          <include name="m1"/>
-          <include name="m4"/>
-        </methods>
-      </class> <!-- default1.Screenshot_Of_Failed_Test_Cases -->
-      <class name="Default2.ReTestFailed_Test_cases">
-        <methods>
-          <include name="m2"/>
-          <include name="m1"/>
-        </methods>
-      </class> <!-- Default2.ReTestFailed_Test_cases -->
-      <class name="default1.Test2">
-        <methods>
-          <include name="m7"/>
-        </methods>
-      </class> <!-- default1.Test2 -->
-    </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+</suite> <!-- Suite -->
