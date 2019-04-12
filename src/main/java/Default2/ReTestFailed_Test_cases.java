@@ -10,7 +10,7 @@ public class ReTestFailed_Test_cases {
 		Assert.assertEquals(5, 8);
 	}
 	
-	@Test
+	@Test(retryAnalyzer=Default2.Retry.class)
 	public void m2()
 	{
 		Assert.assertEquals(5, 7);

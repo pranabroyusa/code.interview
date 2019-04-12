@@ -30,9 +30,10 @@ public class Comparable_Vs_Comparator {
 		lp.add(new Laptop_Comparator("Apple",12,1200));
 		Comparator<Laptop_Comparator> com=new Laptop_Comparator();
 		Collections.sort(lp, com);
+		
 		for(Laptop_Comparator l : lp)
 		{
-			System.out.println("Price :"+l.getPrice()+" Brand :"+l.getBrand()+" Ram :"+l.getRam());
+			System.out.println(" Ram :"+l.getPrice());
 		}
 	}
 

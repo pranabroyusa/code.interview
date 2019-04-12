@@ -39,7 +39,7 @@ public class Laptop_Comparator implements Comparator<Laptop_Comparator> {
 		if(lap1.getPrice()<lap2.getPrice())
 		return 1;
 		else
-			return -1;
+		return -1;
 	}
 	
 	

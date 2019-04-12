@@ -1,5 +1,6 @@
 package Default2;
 
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 

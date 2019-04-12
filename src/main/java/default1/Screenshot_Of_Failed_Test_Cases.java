@@ -1,8 +1,6 @@
 package default1;
 
 
-
-
 import java.io.File;
 import java.io.IOException;
 
@@ -11,6 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -23,12 +22,15 @@ public class Screenshot_Of_Failed_Test_Cases {
 	@Test
 	public void m1() throws IOException {
 		
-		System. setProperty("webdriver.chrome.driver", "C:\\Users\\Pranab Roy\\Desktop\\Drivers\\chromedriver.exe");
-		driver=new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Pranab Pc\\Desktop\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Pranab Pc\\Desktop\\Drivers\\geckodriver.exe");
+		
+		
+		//WebDriver driver = new ChromeDriver();
+		driver=new FirefoxDriver();
 	    driver.get("https://www.bbc.com/");
-	   System.out.println(driver.getTitle());
-	   Assert.assertEquals(5, 8);
-	   // take_Screenshot();
+	    Assert.assertEquals(4, 15);
+	    take_Screenshot();
 	}
 	
 	public void take_Screenshot() throws IOException
@@ -43,7 +45,7 @@ public class Screenshot_Of_Failed_Test_Cases {
 
             //Move image file to new destination
 
-                File DestFile=new File("C:\\Users\\Pranab Roy\\Desktop\\ScreenShots\\abc.jpg");
+                File DestFile=new File("C:\\Users\\Pranab Pc\\Desktop\\Screenshots\\abc.jpg");
 
                 //Copy file at destination
 
@@ -59,7 +61,6 @@ public class Screenshot_Of_Failed_Test_Cases {
 		   take_Screenshot();
 	}
 	}
-}
 	
 
-
+}

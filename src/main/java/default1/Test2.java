@@ -2,6 +2,7 @@ package default1;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Test2 {
@@ -12,6 +13,12 @@ public class Test2 {
 		
 		Runtime rn=Runtime.getRuntime();
 		Process pr=rn.exec(path);
+		
+	}
+	
+	@Test
+	public void m7()  {
+		Assert.assertEquals(5, 7);
 		
 	}
 

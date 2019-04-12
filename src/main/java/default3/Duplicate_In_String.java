@@ -8,14 +8,15 @@ import org.testng.annotations.Test;
 
 public class Duplicate_In_String {
 	
-	@Test
+	//@Test
 	public void m1()
 	{
 		String s="bangladeshisthe best";
 		
 		Map<Character,Integer> map = new HashMap<Character,Integer>();
 		
-		
+		map.put('u', 7);
+		map.put('u', 9);
 		for(int i=0;i<s.length();i++)
 		{
 			char c=s.charAt(i);
@@ -38,4 +39,15 @@ public class Duplicate_In_String {
 		 getValue()); }
 	}
 
+	
+	 @Test
+	 public void m2()
+	 {
+		 Map<Character,Integer> map = new HashMap<Character,Integer>();
+			
+			map.put('u', 7);
+			map.put('u', 9); 
+			map.put('u', 11);
+			System.out.println(map.get('u'));
+	 }
 }

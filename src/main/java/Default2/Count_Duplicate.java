@@ -2,6 +2,7 @@ package Default2;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 import org.testng.annotations.Test;
@@ -10,7 +11,7 @@ public class Count_Duplicate {
 	@Test
 	public void m2()
 	{
-	String s="yahoogoogle";
+	String s="Trup is the presidenent of the usa";
 
 
 	Map<Character,Integer> map = new HashMap<Character,Integer>();
@@ -30,17 +31,23 @@ public class Count_Duplicate {
 		{
 			map.put(c, 1);
 		}
-		
-		
+	
 	}
+	System.out.println(map);
 	
-	
-	Set<Map.Entry<Character, Integer>> mySet=map.entrySet();
+	/*Set<Map.Entry<Character, Integer>> mySet=map.entrySet();
 	  for(Map.Entry<Character, Integer> result: mySet) {
 	  System.out.println(" Key is : "+result.getKey()+" Value is : "+result.
-	 getValue()); }
-
+	 getValue()); }*/
+	Set<Entry<Character, Integer>> s2 = map.entrySet();
+	for(Entry<Character, Integer>result: s2)
+	{
+		if(result.getValue()>1)
+		{
+	
+		System.out.println(result.getKey()+" is "+result.getValue()+"times");
+		}
 }
 }
-
+}
 
