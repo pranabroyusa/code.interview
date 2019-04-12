@@ -2,40 +2,40 @@
 <testng-results skipped="8" failed="6" total="42" passed="28">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23473" started-at="2019-04-12T02:30:55Z" finished-at="2019-04-12T02:31:18Z">
+  <suite name="Suite" duration-ms="12370" started-at="2019-04-12T20:49:13Z" finished-at="2019-04-12T20:49:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23473" started-at="2019-04-12T02:30:55Z" finished-at="2019-04-12T02:31:18Z">
+    <test name="Test" duration-ms="12370" started-at="2019-04-12T20:49:13Z" finished-at="2019-04-12T20:49:25Z">
       <class name="Default2.A">
-        <test-method status="PASS" signature="m2()[pri:0, instance:Default2.A@d7b1517]" name="m2" duration-ms="3" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m2()[pri:0, instance:Default2.A@d7b1517]" name="m2" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
       </class> <!-- Default2.A -->
       <class name="math.Fabonachi_Number">
-        <test-method status="PASS" signature="fibonacci()[pri:0, instance:math.Fabonachi_Number@28f67ac7]" name="fibonacci" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="fibonacci()[pri:0, instance:math.Fabonachi_Number@28f67ac7]" name="fibonacci" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fibonacci -->
       </class> <!-- math.Fabonachi_Number -->
       <class name="default3.Fibonaccci_Number">
-        <test-method status="PASS" signature="m1()[pri:0, instance:default3.Fibonaccci_Number@2a18f23c]" name="m1" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:default3.Fibonaccci_Number@2a18f23c]" name="m1" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
       </class> <!-- default3.Fibonaccci_Number -->
       <class name="math.i_Plus_Plus">
-        <test-method status="PASS" signature="m1()[pri:0, instance:math.i_Plus_Plus@23223dd8]" name="m1" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:math.i_Plus_Plus@23223dd8]" name="m1" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="m2()[pri:0, instance:math.i_Plus_Plus@23223dd8]" name="m2" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m2()[pri:0, instance:math.i_Plus_Plus@23223dd8]" name="m2" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
       </class> <!-- math.i_Plus_Plus -->
       <class name="default1.Screenshot_Of_Failed_Test_Cases">
-        <test-method status="FAIL" signature="m1()[pri:0, instance:default1.Screenshot_Of_Failed_Test_Cases@6adca536]" name="m1" duration-ms="31" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="FAIL" signature="m1()[pri:0, instance:default1.Screenshot_Of_Failed_Test_Cases@6adca536]" name="m1" duration-ms="133" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The driver executable does not exist: C:\Users\Pranab Pc\Desktop\Drivers\geckodriver.exe]]>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="FAIL" signature="m4(org.testng.ITestResult)[pri:0, instance:default1.Screenshot_Of_Failed_Test_Cases@6adca536]" name="m4" is-config="true" duration-ms="0" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="FAIL" signature="m4(org.testng.ITestResult)[pri:0, instance:default1.Screenshot_Of_Failed_Test_Cases@6adca536]" name="m4" is-config="true" duration-ms="0" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <params>
             <param index="0">
               <value>
@@ -121,109 +121,109 @@
         </test-method> <!-- m4 -->
       </class> <!-- default1.Screenshot_Of_Failed_Test_Cases -->
       <class name="default3.Collection_Framework_1">
-        <test-method status="PASS" signature="m7()[pri:0, instance:default3.Collection_Framework_1@649d209a]" name="m7" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m7()[pri:0, instance:default3.Collection_Framework_1@649d209a]" name="m7" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m7 -->
       </class> <!-- default3.Collection_Framework_1 -->
       <class name="Default2.Count_Duplicate">
-        <test-method status="PASS" signature="m2()[pri:0, instance:Default2.Count_Duplicate@6ea6d14e]" name="m2" duration-ms="1" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="m2()[pri:0, instance:Default2.Count_Duplicate@6ea6d14e]" name="m2" duration-ms="3" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
       </class> <!-- Default2.Count_Duplicate -->
       <class name="default3.Duplicate_In_String">
-        <test-method status="PASS" signature="m2()[pri:0, instance:default3.Duplicate_In_String@1b40d5f0]" name="m2" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m2()[pri:0, instance:default3.Duplicate_In_String@1b40d5f0]" name="m2" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
       </class> <!-- default3.Duplicate_In_String -->
       <class name="com.code.trial.Array_To_Array_List">
-        <test-method status="PASS" signature="m1()[pri:0, instance:com.code.trial.Array_To_Array_List@2b80d80f]" name="m1" duration-ms="14" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:com.code.trial.Array_To_Array_List@2b80d80f]" name="m1" duration-ms="12" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
       </class> <!-- com.code.trial.Array_To_Array_List -->
       <class name="Default2.Sort_Array">
-        <test-method status="PASS" signature="m2()[pri:0, instance:Default2.Sort_Array@546a03af]" name="m2" duration-ms="1" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="m2()[pri:0, instance:Default2.Sort_Array@546a03af]" name="m2" duration-ms="2" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
       </class> <!-- Default2.Sort_Array -->
-      <class name="default3.Comparable_Vs_Comparator">
-        <test-method status="PASS" signature="comparator()[pri:0, instance:default3.Comparable_Vs_Comparator@3c5a99da]" name="comparator" duration-ms="47" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- comparator -->
-      </class> <!-- default3.Comparable_Vs_Comparator -->
       <class name="com.code.trial.Prime_Number">
-        <test-method status="PASS" signature="m4()[pri:0, instance:com.code.trial.Prime_Number@2aaf7cc2]" name="m4" duration-ms="1" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="m4()[pri:0, instance:com.code.trial.Prime_Number@2aaf7cc2]" name="m4" duration-ms="1" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m4 -->
       </class> <!-- com.code.trial.Prime_Number -->
-      <class name="default3.Set_Java">
-        <test-method status="PASS" signature="m3()[pri:0, instance:default3.Set_Java@6ad5c04e]" name="m3" duration-ms="1" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+      <class name="default3.Comparable_Vs_Comparator">
+        <test-method status="PASS" signature="comparator()[pri:0, instance:default3.Comparable_Vs_Comparator@3c5a99da]" name="comparator" duration-ms="3" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m3 -->
-      </class> <!-- default3.Set_Java -->
+        </test-method> <!-- comparator -->
+      </class> <!-- default3.Comparable_Vs_Comparator -->
       <class name="Default2.Prime_Number">
-        <test-method status="PASS" signature="m1()[pri:0, instance:Default2.Prime_Number@4ec6a292]" name="m1" duration-ms="7" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:Default2.Prime_Number@4ec6a292]" name="m1" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
       </class> <!-- Default2.Prime_Number -->
+      <class name="default3.Set_Java">
+        <test-method status="PASS" signature="m3()[pri:0, instance:default3.Set_Java@6ad5c04e]" name="m3" duration-ms="1" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- default3.Set_Java -->
       <class name="default3.Singleton_ABC">
-        <test-method status="PASS" signature="m1()[pri:0, instance:default3.Singleton_ABC@256216b3]" name="m1" duration-ms="37" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:default3.Singleton_ABC@256216b3]" name="m1" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
       </class> <!-- default3.Singleton_ABC -->
       <class name="Default2.Binary_Search">
-        <test-method status="PASS" signature="m3()[pri:0, instance:Default2.Binary_Search@ea4a92b]" name="m3" duration-ms="2" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m3()[pri:0, instance:Default2.Binary_Search@ea4a92b]" name="m3" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
       </class> <!-- Default2.Binary_Search -->
       <class name="default3.Array1">
-        <test-method status="PASS" signature="arraySorting2()[pri:0, instance:default3.Array1@7907ec20]" name="arraySorting2" duration-ms="2" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="arraySorting2()[pri:0, instance:default3.Array1@7907ec20]" name="arraySorting2" duration-ms="2" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arraySorting2 -->
       </class> <!-- default3.Array1 -->
       <class name="com.code.trial.A">
-        <test-method status="PASS" signature="m2()[pri:0, instance:com.code.trial.A@357246de]" name="m2" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m2()[pri:0, instance:com.code.trial.A@357246de]" name="m2" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method status="PASS" signature="m3()[pri:0, instance:com.code.trial.A@357246de]" name="m3" duration-ms="3" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m3()[pri:0, instance:com.code.trial.A@357246de]" name="m3" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="m4()[pri:0, instance:com.code.trial.A@357246de]" name="m4" duration-ms="2" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m4()[pri:0, instance:com.code.trial.A@357246de]" name="m4" duration-ms="2" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m4 -->
-        <test-method status="PASS" signature="m7()[pri:0, instance:com.code.trial.A@357246de]" name="m7" duration-ms="2" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m7()[pri:0, instance:com.code.trial.A@357246de]" name="m7" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m7 -->
       </class> <!-- com.code.trial.A -->
       <class name="comparable_Vs_Comparator.Comparator_Test">
-        <test-method status="PASS" signature="comparator()[pri:0, instance:comparable_Vs_Comparator.Comparator_Test@3ab39c39]" name="comparator" duration-ms="3" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="comparator()[pri:0, instance:comparable_Vs_Comparator.Comparator_Test@3ab39c39]" name="comparator" duration-ms="2" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- comparator -->
       </class> <!-- comparable_Vs_Comparator.Comparator_Test -->
       <class name="com.code.trial.B">
-        <test-method status="PASS" signature="m1()[pri:0, instance:com.code.trial.B@35851384]" name="m1" duration-ms="3" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:com.code.trial.B@35851384]" name="m1" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
       </class> <!-- com.code.trial.B -->
       <class name="Default2.ReTestFailed_Test_cases">
-        <test-method status="SKIP" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="SKIP" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [8] but found [5]]]>
@@ -263,7 +263,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="SKIP" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="SKIP" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="0" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [8] but found [5]]]>
@@ -303,7 +303,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="SKIP" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="0" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="SKIP" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [8] but found [5]]]>
@@ -343,7 +343,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="SKIP" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="0" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="SKIP" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [8] but found [5]]]>
@@ -383,7 +383,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="FAIL" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="FAIL" signature="m1()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m1" duration-ms="2" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [8] but found [5]]]>
@@ -423,7 +423,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="SKIP" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="7" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="SKIP" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [7] but found [5]]]>
@@ -463,7 +463,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method status="SKIP" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="8" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="SKIP" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="0" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [7] but found [5]]]>
@@ -503,7 +503,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method status="SKIP" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="2" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="SKIP" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="0" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [7] but found [5]]]>
@@ -543,7 +543,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method status="SKIP" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="1" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="SKIP" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [7] but found [5]]]>
@@ -583,7 +583,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method status="FAIL" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="0" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="FAIL" signature="m2()[pri:0, instance:Default2.ReTestFailed_Test_cases@16c0663d]" name="m2" duration-ms="0" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [7] but found [5]]]>
@@ -625,19 +625,19 @@
         </test-method> <!-- m2 -->
       </class> <!-- Default2.ReTestFailed_Test_cases -->
       <class name="math.FooBoo">
-        <test-method status="PASS" signature="remainder()[pri:0, instance:math.FooBoo@2eee9593]" name="remainder" duration-ms="3" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="remainder()[pri:0, instance:math.FooBoo@2eee9593]" name="remainder" duration-ms="1" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remainder -->
       </class> <!-- math.FooBoo -->
       <class name="default3.Map_Java">
-        <test-method status="PASS" signature="m3()[pri:0, instance:default3.Map_Java@28864e92]" name="m3" duration-ms="1" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="m3()[pri:0, instance:default3.Map_Java@28864e92]" name="m3" duration-ms="1" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
       </class> <!-- default3.Map_Java -->
       <class name="default3.Serialization_DeSerialization">
-        <test-method status="FAIL" signature="test()[pri:0, instance:default3.Serialization_DeSerialization@721e0f4f]" name="test" duration-ms="1" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:default3.Serialization_DeSerialization@721e0f4f]" name="test" duration-ms="1" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[C:\Users\Pranab Pc\Desktop\file.ser (The system cannot find the path specified)]]>
@@ -678,23 +678,23 @@
         </test-method> <!-- test -->
       </class> <!-- default3.Serialization_DeSerialization -->
       <class name="math.PrimeNumber">
-        <test-method status="PASS" signature="Prime_Number()[pri:0, instance:math.PrimeNumber@6833ce2c]" name="Prime_Number" duration-ms="1" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="Prime_Number()[pri:0, instance:math.PrimeNumber@6833ce2c]" name="Prime_Number" duration-ms="1" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Prime_Number -->
       </class> <!-- math.PrimeNumber -->
       <class name="super_Method.ClassTest">
-        <test-method status="PASS" signature="m1()[pri:0, instance:super_Method.ClassTest@725bef66]" name="m1" duration-ms="2" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:30:55Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:super_Method.ClassTest@725bef66]" name="m1" duration-ms="3" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
       </class> <!-- super_Method.ClassTest -->
       <class name="default1.Test2">
-        <test-method status="PASS" signature="m6()[pri:0, instance:default1.Test2@1888ff2c]" name="m6" duration-ms="3" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="PASS" signature="m6()[pri:0, instance:default1.Test2@1888ff2c]" name="m6" duration-ms="6" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m6 -->
-        <test-method status="FAIL" signature="m7()[pri:0, instance:default1.Test2@1888ff2c]" name="m7" duration-ms="0" started-at="2019-04-11T19:31:18Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="FAIL" signature="m7()[pri:0, instance:default1.Test2@1888ff2c]" name="m7" duration-ms="1" started-at="2019-04-12T13:49:25Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [7] but found [5]]]>
@@ -736,7 +736,7 @@
         </test-method> <!-- m7 -->
       </class> <!-- default1.Test2 -->
       <class name="default1.Test1">
-        <test-method status="FAIL" signature="m1()[pri:0, instance:default1.Test1@6e3c1e69]" name="m1" duration-ms="23153" started-at="2019-04-11T19:30:55Z" finished-at="2019-04-11T19:31:18Z">
+        <test-method status="FAIL" signature="m1()[pri:0, instance:default1.Test1@6e3c1e69]" name="m1" duration-ms="12080" started-at="2019-04-12T13:49:13Z" finished-at="2019-04-12T13:49:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [15] but found [4]]]>
